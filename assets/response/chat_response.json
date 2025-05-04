@@ -1,0 +1,58 @@
+{
+    "group_name": "Tommy's Group",
+    "group_image": "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0",
+    "chats": [
+        {
+            "sender_name": "Lousiana",
+            "timestamp": "202507101254",
+            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "message": "Hi how are you?"
+        },
+        {
+            "sender_name": "Lousiana",
+            "timestamp": "202507101255",
+            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "message": "@Tommy Feeling ok?"
+        },
+        {
+            "sender_name": "Tommy",
+            "timestamp": "202507101320",
+            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux, 😢"
+        },
+        {
+            "sender_name": "self",
+            "timestamp": "202507101357",
+            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "message": "Yes, Im well. Had a long day. went \nto the cinema with the some people.it was extremely hot couldn't be bothered in the end. How r U?"
+        },
+        {
+            "sender_name": "Cristofer",
+            "timestamp": "202507101359",
+            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
+        },
+        {
+            "sender_name": "Lousiana",
+            "timestamp": "202507111220",
+            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
+        },
+        {
+            "sender_name": "Tommy",
+            "timestamp": "202507111320",
+            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
+        },{
+            "sender_name": "self",
+            "timestamp": "202507111323",
+            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "message": "Yes, Im well. Had a long day. went \nto the cinema with the some people.it was extremely hot couldn't be bothered in the end. How r U?"
+        },{
+            "sender_name": "Cristofer",
+            "timestamp": "202507111325",
+            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
+        }
+    ]
+}
