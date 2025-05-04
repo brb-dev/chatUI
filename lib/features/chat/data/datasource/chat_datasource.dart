@@ -6,7 +6,7 @@ import '../dtos/chat_dto.dart';
 
 class ChatDatasource {
   Future<ChatEntity> loadChat() async {
-    await Future.delayed(const Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 1));
     final data = json.decode(
       await rootBundle.loadString('assets/response/chat_response.json'),
     );

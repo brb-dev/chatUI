@@ -1,16 +1,31 @@
-# chatui
+# ChatUI
+This is a demo mobile app created by CLEAN Architecture and BLoC state management
 
-A new Flutter project.
+### Require
+- [Vscode](https://code.visualstudio.com/)
+- [Flutter extension](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
+- [FVM](https://fvm.app/docs/getting_started/installation)
 
-## Getting Started
+### Optional
+- [Bloc extension](https://marketplace.visualstudio.com/items?itemName=FelixAngelov.bloc)
 
-This project is a starting point for a Flutter application.
+### Setup
+1. Install [FVM](https://fvm.app/docs/getting_started/installation)
+2. Git clone project
+3. Open project with Vscode, check ".fvm/fvm_config.json" file, check the "flutterSdkVersion" inside and use ```fvm use <flutterSdkVersion_you_saw>```
+4. Restart vscode
 
-A few resources to get you started if this is your first Flutter project:
+### Auto build json_serializable, freezed, auto_route_generator, hive_generator 
+```fvm flutter pub run build_runner watch --delete-conflicting-outputs```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Flavor
+| Flavor| Package name | App Name | Endpoint |
+|--|--|--|--|
+| MOCK  | `app.lufapytanie.mock`| ChatUI Mock | local assets json |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Build app
+#### IOS
+- ```fvm flutter build ipa --release --split-debug-info --obfuscate --flavor mock -t lib/main_mock.dart```
+
+#### Android
+- ```fvm flutter build apk --release --split-debug-info --obfuscate --flavor mock -t lib/main_mock.dart```

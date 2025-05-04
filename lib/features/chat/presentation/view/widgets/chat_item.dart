@@ -72,12 +72,15 @@ class _ItemHeader extends StatelessWidget {
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             border: Border.all(color: AppColor.tealSecondary),
-            image: DecorationImage(
-              image: NetworkImage(item.senderImage),
-              fit: BoxFit.cover,
-              alignment: Alignment.center,
-              repeat: ImageRepeat.noRepeat,
-            ),
+          ),
+          child: CustomImageView(
+            imagePath: item.senderImage,
+            fit: BoxFit.contain,
+            alignment: Alignment.center,
+            radius: BorderRadius.circular(12),
+            placeHolder: AppAssets.profileIcon,
+            width: 24,
+            height: 24,
           ),
         ),
         4.wd,

@@ -1,57 +1,57 @@
 {
     "group_name": "Tommy's Group",
-    "group_image": "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0",
+    "group_image": "https://plus.unsplash.com/premium_photo-1661715812379-23d652805042?q=80&w=80&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "chats": [
         {
             "sender_name": "Lousiana",
             "timestamp": "202507101254",
-            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "sender_image": "https://as2.ftcdn.net/jpg/10/44/60/35/1000_F_1044603556_jdMd46GZy7ffroPlIxCmyyh9RzgAX8kH.webp",
             "message": "Hi how are you?"
         },
         {
             "sender_name": "Lousiana",
             "timestamp": "202507101255",
-            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "sender_image": "https://as2.ftcdn.net/jpg/10/44/60/35/1000_F_1044603556_jdMd46GZy7ffroPlIxCmyyh9RzgAX8kH.webp",
             "message": "@Tommy Feeling ok?"
         },
         {
             "sender_name": "Tommy",
             "timestamp": "202507101320",
-            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "sender_image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
             "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux, 😢"
         },
         {
             "sender_name": "self",
             "timestamp": "202507101357",
-            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "sender_image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/JPEG_example_flower.jpg",
             "message": "Yes, Im well. Had a long day. went \nto the cinema with the some people.it was extremely hot couldn't be bothered in the end. How r U?"
         },
         {
             "sender_name": "Cristofer",
             "timestamp": "202507101359",
-            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "sender_image": "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&dpr=2",
             "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
         },
         {
             "sender_name": "Lousiana",
             "timestamp": "202507111220",
-            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "sender_image": "https://as2.ftcdn.net/jpg/10/44/60/35/1000_F_1044603556_jdMd46GZy7ffroPlIxCmyyh9RzgAX8kH.webp",
             "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
         },
         {
             "sender_name": "Tommy",
             "timestamp": "202507111320",
-            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "sender_image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
             "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
         },{
             "sender_name": "self",
             "timestamp": "202507111323",
-            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "sender_image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/JPEG_example_flower.jpg",
             "message": "Yes, Im well. Had a long day. went \nto the cinema with the some people.it was extremely hot couldn't be bothered in the end. How r U?"
         },{
             "sender_name": "Cristofer",
             "timestamp": "202507111325",
-            "sender_image": "https://images.unsplash.com/photo-1629794138560-46d2815a6d79",
+            "sender_image": "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&dpr=2",
             "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
         }
     ]
