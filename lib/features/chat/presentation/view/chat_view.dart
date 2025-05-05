@@ -9,6 +9,7 @@ import 'package:chatui/utils/widgets/loading_shimmer/loading_shimmer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:loading_animation_widget/loading_animation_widget.dart';
 
 import '../../../../core/error/error_util.dart';
 import '../bloc/chat_bloc.dart';

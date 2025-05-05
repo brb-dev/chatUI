@@ -1,16 +1,19 @@
 import 'package:chatui/core/theme/app_color.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
+const String _FONT_FAMILY = 'Fraunces';
 
 class BaseStyles {
   BaseStyles._();
 
   ///H1 Emphasized
-  static TextStyle titleLarge = GoogleFonts.fraunces(
+  static TextStyle titleLarge = TextStyle(
+    fontFamily: _FONT_FAMILY,
     fontSize: 18,
     fontWeight: FontWeight.w600,
   );
-  static TextStyle titleMedium = GoogleFonts.fraunces(
+  static TextStyle titleMedium = TextStyle(
+    fontFamily: _FONT_FAMILY,
     fontSize: 18,
     fontWeight: FontWeight.w600,
     height: 1.20,
@@ -23,21 +26,24 @@ class BaseStyles {
     ],
   );
 
-  static TextStyle titleSmall = GoogleFonts.fraunces(
+  static TextStyle titleSmall = TextStyle(
+    fontFamily: _FONT_FAMILY,
     fontSize: 14,
     fontWeight: FontWeight.w400,
     color: AppColor.textColor,
     height: 1.20,
   );
 
-  static TextStyle lebelLarge = GoogleFonts.fraunces(
+  static TextStyle lebelLarge = TextStyle(
+    fontFamily: _FONT_FAMILY,
     fontSize: 12,
     fontWeight: FontWeight.w400,
     color: AppColor.timeColor,
     height: 1.30,
   );
 
-  static TextStyle bodyLarge = GoogleFonts.fraunces(
+  static TextStyle bodyLarge = TextStyle(
+    fontFamily: _FONT_FAMILY,
     fontSize: 12,
     fontWeight: FontWeight.w400,
     height: 1.10,

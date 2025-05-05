@@ -64,30 +64,33 @@ class _ChatHeader extends StatelessWidget {
               child: Row(
                 children: [
                   13.wd,
-                  LoadingShimmer.withChild(
-                    enabled: state.isChatFetching,
-                    child: Container(
-                      width: 44,
-                      height: 44,
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        border: Border.all(color: AppColor.tealSecondary),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withValues(
-                              alpha: 0,
-                              blue: 0,
-                              green: 0,
-                              red: 0.10,
-                            ),
-                            offset: Offset(0, 3),
-                            blurRadius: 1,
-                            spreadRadius: 0,
+                  Container(
+                    width: 44,
+                    height: 44,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(color: AppColor.tealSecondary),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withValues(
+                            alpha: 0,
+                            blue: 0,
+                            green: 0,
+                            red: 0.10,
                           ),
-                        ],
-                      ),
+                          offset: Offset(0, 3),
+                          blurRadius: 1,
+                          spreadRadius: 0,
+                        ),
+                      ],
+                    ),
+                    child: LoadingShimmer.withChild(
+                      enabled: state.chatData.groupImage.isEmpty,
                       child: CustomImageView(
-                        imagePath: state.chatData.groupImage,
+                        imagePath:
+                            state.chatData.groupImage.isEmpty
+                                ? AppAssets.groupIcon
+                                : state.chatData.groupImage,
                         fit: BoxFit.cover,
                         alignment: Alignment.center,
                         placeHolder: AppAssets.groupIcon,

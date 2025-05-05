@@ -11,4 +11,7 @@ abstract class AppAssets {
   static const String threeDotIcon = '${_basePngPath}three_dots_icon.png';
   static const String profileIcon = '${_basePngPath}profile_icon.png';
   static const String groupIcon = '${_basePngPath}group_icon.png';
+  static const String groupImage = '${_basePngPath}group_image.png';
+  static const String lucianaProfileImage =
+      '${_basePngPath}luciana_profile.png';
 }

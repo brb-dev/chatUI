@@ -10,7 +10,18 @@ class _ChatListView extends StatelessWidget {
               previous.isChatFetching != current.isChatFetching,
       builder: (context, state) {
         return state.isChatFetching
-            ? Center(child: LoadingShimmer.logo())
+            ? Center(
+              child: Container(
+                alignment: Alignment.center,
+                padding: const EdgeInsets.symmetric(vertical: 10),
+                child: LoadingAnimationWidget.discreteCircle(
+                  color: AppColor.errorRed,
+                  secondRingColor: AppColor.tealSecondary,
+                  thirdRingColor: AppColor.yellowPrimary,
+                  size: 30,
+                ),
+              ),
+            )
             : ListView.separated(
               itemCount: state.chatData.items.length,
               itemBuilder: (context, index) {

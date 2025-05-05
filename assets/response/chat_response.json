@@ -1,23 +1,23 @@
 {
     "group_name": "Tommy's Group",
-    "group_image": "https://plus.unsplash.com/premium_photo-1661715812379-23d652805042?q=80&w=80&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "group_image": "assets/png/group_image.png",
     "chats": [
         {
             "sender_name": "Lousiana",
             "timestamp": "202507101254",
-            "sender_image": "https://as2.ftcdn.net/jpg/10/44/60/35/1000_F_1044603556_jdMd46GZy7ffroPlIxCmyyh9RzgAX8kH.webp",
+            "sender_image": "assets/png/luciana_profile.png",
             "message": "Hi how are you?"
         },
         {
             "sender_name": "Lousiana",
             "timestamp": "202507101255",
-            "sender_image": "https://as2.ftcdn.net/jpg/10/44/60/35/1000_F_1044603556_jdMd46GZy7ffroPlIxCmyyh9RzgAX8kH.webp",
+            "sender_image": "assets/png/luciana_profile.png",
             "message": "@Tommy Feeling ok?"
         },
         {
             "sender_name": "Tommy",
             "timestamp": "202507101320",
-            "sender_image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "sender_image": "assets/png/tommy_profile.png",
             "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux, 😢"
         },
         {
@@ -29,19 +29,19 @@
         {
             "sender_name": "Cristofer",
             "timestamp": "202507101359",
-            "sender_image": "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&dpr=2",
+            "sender_image": "assets/png/christofer_profile.png",
             "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
         },
         {
             "sender_name": "Lousiana",
             "timestamp": "202507111220",
-            "sender_image": "https://as2.ftcdn.net/jpg/10/44/60/35/1000_F_1044603556_jdMd46GZy7ffroPlIxCmyyh9RzgAX8kH.webp",
+            "sender_image": "assets/png/luciana_profile.png",
             "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
         },
         {
             "sender_name": "Tommy",
             "timestamp": "202507111320",
-            "sender_image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "sender_image": "assets/png/tommy_profile.png",
             "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
         },{
             "sender_name": "self",
@@ -51,7 +51,7 @@
         },{
             "sender_name": "Cristofer",
             "timestamp": "202507111325",
-            "sender_image": "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&dpr=2",
+            "sender_image": "assets/png/christofer_profile.png",
             "message": "Yes im good. thanks for asking.Didn't do much. feeling bit sick after that meal. So just exhausted. watching netflux"
         }
     ]
